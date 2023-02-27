@@ -1,0 +1,116 @@
+.sectionOne {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.caruselContainer {
+  width: 350px;
+  position: relative;
+  display: block;
+}
+.nftItem {
+  width: 100%;
+}
+.nftItem > img {
+  width: 350px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.main h1 {
+  font-size: 170px;
+  text-align: center;
+  margin: 0;
+  line-height: 140px;
+  height: 169px;
+  font-weight: bolder !important;
+}
+
+.main h2 {
+  font-size: 75px;
+  text-align: center;
+  margin: 0;
+  line-height: 88px;
+  height: 199px;
+  font-weight: bolder !important;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+.socialArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1250px) {
+  .main h1 {
+    font-size: 120px;
+    line-height: 112px;
+    height: 142px;
+  }
+  .main h2 {
+    font-size: 55px;
+    line-height: 65px;
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sectionOne {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .sectionOne {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .caruselContainer {
+    width: 260px;
+    position: relative;
+    display: block;
+  }
+  .nftItem {
+    width: 100%;
+  }
+  .nftItem > img {
+    width: 260px;
+    height: auto;
+    border-radius: 15px;
+  }
+  .main h1 {
+    font-size: 60px;
+    line-height: 80px;
+    height: 100px;
+
+  }
+  .main h2 {
+    font-size: 34px;
+    line-height: 49px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+}

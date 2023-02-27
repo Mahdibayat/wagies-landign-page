@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family: 'Integral CF';
+  src: local('Integral CF Heavy'), local('Integral-CF-Heavy'),
+      url('fonts/IntegralCF-Heavy.woff2') format('woff2'),
+      url('fonts/IntegralCF-Heavy.woff') format('woff'),
+      url('fonts/IntegralCF-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: bolder;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: local('Integral CF Bold'), local('Integral-CF-Bold'),
+      url('fonts/IntegralCF-Bold.woff2') format('woff2'),
+      url('fonts/IntegralCF-Bold.woff') format('woff'),
+      url('fonts/IntegralCF-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: local('Integral CF Regular'), local('Integral-CF-Regular'),
+      url('IntegralCF-Regular.woff2') format('woff2'),
+      url('IntegralCF-Regular.woff') format('woff'),
+      url('IntegralCF-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+      url('fonts/Poppins-Regular.woff2') format('woff2'),
+      url('fonts/Poppins-Regular.woff') format('woff'),
+      url('fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --yellow-gradient: linear-gradient(180deg, #FFB800 0%, rgba(255, 184, 0, 0.75) 100%);
+  --blue-gradient: linear-gradient(180deg, #5928E5 0%, rgba(89, 40, 229, 0.75) 100%);
+  --blue-gradient-invert: linear-gradient(180deg, rgba(89, 40, 229, 0.75) 0%, #5928E5 100%);
+  --yellow-gradient-invert: linear-gradient(180deg, rgba(255, 184, 0, 0.75) 0%, #FFB800 100%);
+  --border-yellow: #FFB701;
+  --bordre-violet: #5928E4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00000075;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaaaaaa7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+/* span , small, p {
+  font-family: "Poppins", 'Courier New', Courier, monospace;
+} */
+
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 60px;
+  font-family: "Integral CF", 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  width: 100%;
+  background-image: url('/blueCircle.svg');
+  background-repeat: no-repeat;
+  background-size: 38%;
+  background-position: -5% 200px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.y-btn {
+  position: relative;
+  bottom: 3px;
+}
+
+ul.slick-dots{
+  bottom: -45px;
+  scale: 1.2;
+}
+.slick-dots li button:before {
+  opacity: 1;
+  scale: 1.6;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  scale: 1.6;
+}
+.slick-dots li.slick-active::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -18%);
+  border-radius: 50%;
+  border: 1.5px solid;
+}
+
+.slick-dots li button::before {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-size: 90%;
+    background-position: -5% 150px;
+  }
+  .main-container {
+    gap: 80px;
+  }
+
+  ul.slick-dots{
+    bottom: -35px;
+    scale: 1;
+  }
+}
+
