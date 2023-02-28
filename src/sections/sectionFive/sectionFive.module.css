@@ -1,0 +1,75 @@
+
+
+.sectionFive {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.top {
+
+}
+
+.top h2 {
+  font-size: 115px;
+  line-height: 110px;
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.top button {
+ margin: auto;
+}
+
+.socialArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0 70px;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .top h2 {
+    font-size: 95px;
+    line-height: 90px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .top h2 {
+    font-size: 75px;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .top h2 {
+    font-size: 65px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .top h2 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .top h2 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+}

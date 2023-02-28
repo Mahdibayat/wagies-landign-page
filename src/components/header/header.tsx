@@ -11,7 +11,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.left}>
-          <img src="./assets/logo.png" alt="" className={styles.logo} />
+          {/* <img src="./assets/logo.png" alt="" className={styles.logo} /> */}
           <span>WAGIES</span>
         </div>
 

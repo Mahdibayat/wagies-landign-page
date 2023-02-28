@@ -25,7 +25,7 @@
 }
 
 .bBtn {
-  background-color: #5928E5;
+  /* background-color: #5928E5; */
   background-image: var(--blue-gradient);
   color: white;
 }
@@ -34,7 +34,7 @@
 }
 
 .yBtn {
-  background-color: #FFB800;
+  /* background-color: #FFB800; */
   background-image: var(--yellow-gradient);
   color: black;
   font-size: 25px;
@@ -46,7 +46,7 @@
 
 .slBtn {
   padding: 15px;
-  background-color: #5928E5;
+  /* background-color: #5928E5; */
   background-image: var(--blue-gradient);
   min-width: fit-content;
   min-height: fit-content;
