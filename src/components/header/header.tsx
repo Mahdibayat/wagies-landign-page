@@ -22,7 +22,7 @@ const Header = () => {
             <a href="#">DROPS</a>
           </div>
 
-          <Button kind="blue">CONNECT WALLET</Button>
+          {/* <Button kind="blue">CONNECT WALLET</Button> */}
         </div>
 
         <Button

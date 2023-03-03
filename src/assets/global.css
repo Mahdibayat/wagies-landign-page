@@ -22,9 +22,9 @@
 @font-face {
   font-family: 'Integral CF';
   src: local('Integral CF Regular'), local('Integral-CF-Regular'),
-      url('IntegralCF-Regular.woff2') format('woff2'),
-      url('IntegralCF-Regular.woff') format('woff'),
-      url('IntegralCF-Regular.ttf') format('truetype');
+      url('fonts/IntegralCF-Regular.woff2') format('woff2'),
+      url('fonts/IntegralCF-Regular.woff') format('woff'),
+      url('fonts/IntegralCF-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
