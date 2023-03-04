@@ -4,6 +4,7 @@ import styles from './sectionTwo.module.css';
 
 //==== IMAGEs
 import Game from '../../assets/sectionTwo.png';
+import { useEffect, useRef } from 'react';
 
 const SectionTwo = () => {
   return (

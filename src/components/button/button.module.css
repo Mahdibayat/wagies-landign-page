@@ -13,7 +13,7 @@
   box-sizing: border-box;
   border: none;
   font-weight: bolder;
-  font-family: "Integral CF", 'Courier New', Courier, monospace;
+  font-family: "Integral CF",'Courier New', Courier, monospace;
   cursor: pointer;
   transition: all 100ms;
 }

@@ -18,7 +18,7 @@ const GoToTop = () => {
 
   function isBottom(el: HTMLElement | null) {
     if (!el) return;
-    return el.getBoundingClientRect().bottom <= window.innerHeight;
+    return el.getBoundingClientRect().bottom <= window.innerHeight + 500;
   }
 
   function trackScrolling() {

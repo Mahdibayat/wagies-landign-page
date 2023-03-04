@@ -1,38 +1,34 @@
 
 @font-face {
   font-family: 'Integral CF';
-  src: local('Integral CF Heavy'), local('Integral-CF-Heavy'),
-      url('fonts/IntegralCF-Heavy.woff2') format('woff2'),
-      url('fonts/IntegralCF-Heavy.woff') format('woff'),
-      url('fonts/IntegralCF-Heavy.ttf') format('truetype');
+  src: url('../assets/fonts/IntegralCF-Heavy.woff2') format('woff2'),
+      url('../assets/fonts/IntegralCF-Heavy.woff') format('woff'),
+      url('../assets/fonts/IntegralCF-Heavy.ttf') format('truetype');
   font-weight: 900;
   font-style: bolder;
 }
 
 @font-face {
   font-family: 'Integral CF';
-  src: local('Integral CF Bold'), local('Integral-CF-Bold'),
-      url('fonts/IntegralCF-Bold.woff2') format('woff2'),
-      url('fonts/IntegralCF-Bold.woff') format('woff'),
-      url('fonts/IntegralCF-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/IntegralCF-Bold.woff2') format('woff2'),
+      url('../assets/fonts/IntegralCF-Bold.woff') format('woff'),
+      url('../assets/fonts/IntegralCF-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: bold;
 }
 
 @font-face {
   font-family: 'Integral CF';
-  src: local('Integral CF Regular'), local('Integral-CF-Regular'),
-      url('fonts/IntegralCF-Regular.woff2') format('woff2'),
-      url('fonts/IntegralCF-Regular.woff') format('woff'),
-      url('fonts/IntegralCF-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/IntegralCF-Regular.woff2') format('woff2'),
+      url('../assets/fonts/IntegralCF-Regular.woff') format('woff'),
+      url('../assets/fonts/IntegralCF-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: local('Poppins Regular'), local('Poppins-Regular'),
-      url('fonts/Poppins-Regular.woff2') format('woff2'),
+  src: url('fonts/Poppins-Regular.woff2') format('woff2'),
       url('fonts/Poppins-Regular.woff') format('woff'),
       url('fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
@@ -87,7 +83,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   margin-top: 60px;
-  font-family: "Integral CF", 'Courier New', Courier, monospace;
+  font-family: "Integral CF", 'sans-serif', 'Courier New', Courier, monospace;
   font-weight: bolder;
   width: 100%;
   background-image: url('/blueCircle.svg');
